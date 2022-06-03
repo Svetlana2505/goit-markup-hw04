@@ -343,6 +343,10 @@ img {
   fill: #afb1b8;
 }
 
+.client-item {
+  width: calc((100% - 150px) / 6);
+}
+
 .client-item:not(:last-child) {
   margin-right: 30px;
 }
